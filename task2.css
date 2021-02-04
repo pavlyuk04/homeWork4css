@@ -1,0 +1,82 @@
+header {
+    text-align: center;
+}
+
+body {
+    background-color: #990909;
+}
+
+.foto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 230px;
+}
+
+.foto img {
+    width: 200px;
+}
+
+.foto h3 {
+    text-align: center;
+    margin: 0%;
+    color:white;
+    font-weight: 100;
+}
+
+.foto a {
+    text-decoration: none;
+}
+
+article {
+    display: flex;
+}
+
+.aside {
+    height: 300px;
+}
+
+.left {
+    width: 250px;
+    background-color: #470101;
+}
+
+.left ul {
+    line-height: 2;
+    list-style-type: none;
+    padding: 0;
+}
+
+.left a {
+    color: orangered;
+    text-align: justify;
+    text-align: left;
+}
+
+.text {
+    color: white;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.right {
+    width: 150px;
+    background-color: silver;
+}
+
+.right h3 {
+    text-align: center;
+    background-color: slategrey;
+}
+
+.right p {
+    border-top: 1px solid #333;
+}
+
+footer {
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
